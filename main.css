@@ -34,46 +34,34 @@ html{
 /*     background-color: hsl(240, 50%, 80%); */
      background-color: hsl(283, 100%, 51%);
 }
-h1{
-    font-size: 2rem;
-    font-weight: 600;
-    transition: all 0.4s;
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: #000;
 }
-.big{
-    font-size: 5rem;
-    font-weight: 900;
-}/**** DEFAULTS ****/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 20px;  /* 1rem will equal this now */
-    line-height: 1.6;
-    font-family: sans-serif; /* add google fonts */
+header h1 {
+    color: aqua;
 }
 
-/**** PAGES ****/
-.page{
-    display: none;
+ h1{
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 1s;
+    /* margin-top: 5rem; */
+}
+
+div.img-wrap{
+    width: 5rem;
+    height: 5rem;
+}
+
+img {
     width: 100%;
-    min-height: 100%; /* allow for content off the bottom of the page */
-    position: fixed;  /* or absolute if the user needs to scroll for more content */
-    padding: 1rem 2rem;
+    height: inherit;
 }
-.active{
-    display: block; 
-}
-#home{
-    background-color: hsl(327, 74%, 26%);
-}
-#list{
-    background-color: hsl(180, 83%, 25%);
-}
-#detail{
-    background-color: hsl(241, 72%, 57%);
-}
+
 h1{
     font-size: 2rem;
     font-weight: 600;
@@ -82,4 +70,3 @@ h1{
 .big{
     font-size: 5rem;
     font-weight: 900;
-}
