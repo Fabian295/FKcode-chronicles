@@ -8,6 +8,7 @@ html{
     font-size: 20px;  /* 1rem will equal this now */
     line-height: 1.6;
     font-family: sans-serif; /* add google fonts */
+    color: #fff;
 }
 
 /**** PAGES ****/
