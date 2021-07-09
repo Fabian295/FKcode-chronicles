@@ -38,7 +38,7 @@ html{
 header {
     display: flex;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #000;
 }
 header h1 {
