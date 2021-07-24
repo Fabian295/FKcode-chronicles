@@ -1,0 +1,20 @@
+{
+  "name": "fkcode-chronicles",
+  "version": "1.0.0",
+  "description": "FK Code Chronicles, let's you see the beauty, possibilities and syntax structures of web development programming.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabian295/FKcode-chronicles.git"
+  },
+  "keywords": [],
+  "author": "Fabian Kanhai <fabiankanhai70@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fabian295/FKcode-chronicles/issues"
+  },
+  "homepage": "https://github.com/Fabian295/FKcode-chronicles#readme"
+}
